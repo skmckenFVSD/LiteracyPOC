@@ -1,0 +1,18 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_cr6d9_student_forms",
+      "Namespace": "Students (Forms)",
+      "Values": {
+        "Information": "af559c35-be40-4e4f-8f79-ef6a95b6ab22"
+      }
+    },
+    {
+      "Kind": "default.cds_cr6d9_class_forms",
+      "Namespace": "Classes (Forms)",
+      "Values": {
+        "Information": "f67ae271-f1aa-4d9e-90d5-d9811739708e"
+      }
+    }
+  ]
+}

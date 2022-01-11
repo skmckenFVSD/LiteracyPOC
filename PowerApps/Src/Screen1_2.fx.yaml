@@ -1,0 +1,47 @@
+"Screen1_2 As screen.'teamsHeroApp_ver1.0'":
+    LoadingSpinnerColor: =RGBA(98, 100, 167, 1)
+    OnVisible: |-
+        =UpdateContext({ varStyle: { topBarHeight:52, topBarTitleSize:12, topBarTitleLeftPadding:12, topBarIconRightPadding:12, topBarTitleLeftPaddingWithButton:8, iconSize:16, largeIconSize:50, iconPadding:12, spaceBetweenIcons:8, deletePageSideMargins:200, galleryBarHeight:70, searchBarHeight:32, deleteTextHeight:120, deleteConfirmButtonHeight:40, iconButtonFill:RGBA(0,0,0,0.2), iconButtonSmallWidth:30, iconFill: ColorValue("#6264A7"), dividerFill: ColorValue("#EAE9E8"), formLabelFontSize: 10.5, focusBorderColor: ColorValue("#000000"), focusBorderThickness: 2, borderStyle: BorderStyle.Dashed }});
+
+    LeftContainer1_2 As groupContainer:
+        Height: =Parent.Height
+        Visible: =Self.Width <> 0
+        Width: =280
+        ZIndex: =2
+
+        "'Application Menu_2' As 'Application Menu'":
+            Height: =767
+            OnSelectAction: =
+            Width: =280
+            ZIndex: =6
+
+    LeftRightDivider1_2 As rectangle:
+        BorderColor: =RGBA(243, 242, 241, 1)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledFill: =RGBA(200, 198, 196, 1)
+        Fill: =varStyle.dividerFill
+        FocusedBorderColor: =RGBA(98, 100, 167, 1)
+        Height: =Parent.Height
+        HoverFill: =RGBA(98, 100, 167, 1)
+        PressedFill: =RGBA(98, 100, 167, 1)
+        Width: =1
+        X: =LeftContainer1_2.Width
+        ZIndex: =11
+
+    RightContainer1_2 As groupContainer:
+        Height: =Parent.Height
+        Visible: =Self.Width <> 0
+        Width: =Parent.Width - Self.X
+        X: =LeftContainer1_2.Width
+        ZIndex: =12
+
+        PowerBI2 As powerbi:
+            BorderColor: =RGBA(243, 242, 241, 1)
+            Height: =RightContainer1_2.Height
+            TileUrl: |-
+                ="https://app.powerbi.com/reportEmbed?reportId=fc524082-740c-4f0a-acc7-5034f7300a3b&autoAuth=true&ctid=42242eff-faf6-4ccd-aea3-e2c4479f8ccb&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWNhbmFkYS1jZW50cmFsLXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0LyJ9"
+            Width: =RightContainer1_2.Width
+            WorkspaceId: ="42fc8fa2-e2ef-47f5-8d4a-aa502bf88c0a"
+            ZIndex: =1
+

@@ -1,0 +1,117 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr6d9_students",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr6d9_student",
+    "MaxGetRowsCount": 500,
+    "Name": "Students",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr6d9_dateofbirth": "Date of Birth",
+      "cr6d9_firstname": "First Name",
+      "cr6d9_gender": "Gender",
+      "cr6d9_lastname": "Last Name",
+      "cr6d9_name": "ASN",
+      "cr6d9_student_AsyncOperations": "System Jobs",
+      "cr6d9_student_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr6d9_student_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr6d9_student_ProcessSession": "Process Sessions",
+      "cr6d9_studentid": "Student",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Students",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Students (Views)",
+    "Name": "_cr6d9_student_views",
+    "RelatedEntityName": "Students",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "225fc437-bfad-47d2-b6f1-2c28899ceaca": "Student Associated View",
+      "4b44cf89-8808-42ef-a57a-a8d7251b7e6e": "Inactive Students",
+      "79454537-9a04-4c90-bad3-74cdee633888": "Student Advanced Find View",
+      "cbd60bf4-414d-46d4-b27d-656926e9c151": "Student Lookup View",
+      "eef54208-c162-4b4b-8ebe-ad8126d38841": "Active Students"
+    }
+  },
+  {
+    "DisplayName": "Gender (Students)",
+    "Name": "cr6d9_gender_cr6d9_student",
+    "OptionSetInfoNameMapping": {
+      "0": "Female",
+      "1": "Male"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr6d9_gender",
+        "OptionSetReferenceEntityName": "Students"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "cr6d9_gender",
+    "RelatedEntityName": "Students",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Students)",
+    "Name": "cr6d9_student_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Students"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Students",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Students)",
+    "Name": "cr6d9_student_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Students"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Students",
+    "Type": "OptionSetInfo"
+  }
+]

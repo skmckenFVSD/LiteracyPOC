@@ -1,0 +1,285 @@
+"'Application Menu' As CanvasComponent":
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =Max(App.Height, App.MinScreenHeight)
+    MenuItems: |-
+        =Table({
+                    Type: "Information",
+                    Label: "Getting Started",
+                    Caption:"Get started with the FVSD Literacy Tool",
+                    ButtonAction: "",
+                    ButtonFill: RGBA(0,125,154,1),
+                    ButtonBorder: RGBA(0,38,48,1),
+                    ButtonHoverFill: RGBA(4,59,109,1),
+                    ButtonHoverBorder: RGBA(6,85,158,1),
+                    HeaderTextColour: RGBA(51,51,51,1),
+                    ButtonTextColour: RGBA(255,255,255,1),   
+                    Image: "",
+                    ImageColour: RGBA(0,125,154,1)
+                },
+                {
+                    Type: "Gap",
+                    Label: "Gap 1"
+                },
+                {
+                    Type: "Information",
+                    Label: "Classes and Students",
+                    Caption:"Import Classes and Student Information ",        
+                    ButtonAction: "",
+                    ButtonFill: RGBA(6,85,158,1),
+                    ButtonBorder: RGBA(6,85,158,1),
+                    ButtonHoverFill: RGBA(4,59,109,1),
+                    ButtonHoverBorder: RGBA(6,85,158,1),
+                    HeaderTextColour: RGBA(51,51,51,1),
+                    ButtonTextColour: RGBA(255,255,255,1),   
+                    Image: "",
+                    ImageColour: RGBA(6,85,158,1)
+                },
+                {
+                    Type: "Category",
+                    Label: "Classes",
+                    Caption:"Create or Import Classes for the current School Year",
+                    ButtonAction: "New Student",
+                    ButtonFill: RGBA(255,255,255,1),
+                    ButtonBorder: RGBA(204,204,204,1),
+                    ButtonHoverFill: RGBA(230,230,230,1),
+                    ButtonHoverBorder: RGBA(173,173,173,1),
+                    HeaderTextColour: RGBA(51,51,51,1),
+                    ButtonTextColour: RGBA(51,51,51,1),   
+                    Image: Icon.People,
+                    ImageColour: RGBA(6,85,158,1)
+                },
+                {
+                    Type: "Category",
+                    Label: "Students",
+                    Caption:"Create or Import Students for the current School Year",
+                    ButtonAction: "New Class",
+                    ButtonFill: RGBA(255,255,255,1),
+                    ButtonBorder: RGBA(204,204,204,1),
+                    ButtonHoverFill: RGBA(230,230,230,1),
+                    ButtonHoverBorder: RGBA(173,173,173,1),
+                    HeaderTextColour: RGBA(51,51,51,1),
+                    ButtonTextColour: RGBA(51,51,51,1),       
+                    Image: Icon.Person,
+                    ImageColour: RGBA(6,85,158,1)
+                },
+                {
+                    Type: "Gap",
+                    Label: "Gap 2"
+                },
+                {
+                    Type: "Information",
+                    Label: "Literacy Assessments",
+                    Caption:"Create or View Literacy Assessments for the Currebt School Year",
+                    ButtonAction: "",
+                    ButtonFill: RGBA(6,85,158,1),
+                    ButtonBorder: RGBA(6,85,158,1),
+                    ButtonHoverFill: RGBA(4,59,109,1),
+                    ButtonHoverBorder: RGBA(6,85,158,1),
+                    HeaderTextColour: RGBA(51,51,51,1),
+                    ButtonTextColour: RGBA(255,255,255,1),      
+                    Image: Icon.Journal,
+                    ImageColour: RGBA(6,85,158,1)
+                },
+                    {
+                    Type: "Category",
+                    Label: "TOSREC",
+                    Caption:"Test of Silent Reading Efficiency and Comprehension (TOSREC)",
+                    ButtonAction: "",
+                    ButtonFill: RGBA(255,255,255,1),
+                    ButtonBorder: RGBA(204,204,204,1),
+                    ButtonHoverFill: RGBA(230,230,230,1),
+                    ButtonHoverBorder: RGBA(173,173,173,1),
+                    HeaderTextColour: RGBA(51,51,51,1),
+                    ButtonTextColour: RGBA(51,51,51,1),        
+                    Image: Icon.Journal,
+                    ImageColour: RGBA(6,85,158,1)
+                },
+                {
+                    Type: "Category",
+                    Label: "TOSWRF",
+                    Caption:"Test of Silent Word Reading Fluency (TOSWRF)",
+                    ButtonAction: "",
+                    ButtonFill: RGBA(255,255,255,1),
+                    ButtonBorder: RGBA(204,204,204,1),
+                    ButtonHoverFill: RGBA(230,230,230,1),
+                    ButtonHoverBorder: RGBA(173,173,173,1),
+                    HeaderTextColour: RGBA(51,51,51,1),
+                    ButtonTextColour: RGBA(51,51,51,1),          
+                    Image: Icon.Journal,
+                    ImageColour:RGBA(6,85,158,1)
+                },
+                    {
+                    Type: "Category",
+                    Label: "TOWRE",
+                    Caption:"Test of Word Reading Efficiency (TOWRE)",
+                    ButtonAction: "",
+                    ButtonFill: RGBA(255,255,255,1),
+                    ButtonBorder: RGBA(204,204,204,1),
+                    ButtonHoverFill: RGBA(230,230,230,1),
+                    ButtonHoverBorder: RGBA(173,173,173,1),
+                    HeaderTextColour: RGBA(51,51,51,1),
+                    ButtonTextColour: RGBA(51,51,51,1),        
+                    Image: Icon.Journal,
+                    ImageColour: RGBA(6,85,158,1)
+                },
+                {
+                    Type: "Category",
+                    Label: "CTOPP",
+                    Caption:"Comprehensive Test of Phonological Processing (CTOPP)",
+                    ButtonAction: "",
+                    ButtonFill: RGBA(255,255,255,1),
+                    ButtonBorder: RGBA(204,204,204,1),
+                    ButtonHoverFill: RGBA(230,230,230,1),
+                    ButtonHoverBorder: RGBA(173,173,173,1),
+                    HeaderTextColour: RGBA(51,51,51,1),
+                    ButtonTextColour: RGBA(51,51,51,1),          
+                    Image: Icon.Journal,
+                    ImageColour: RGBA(6,85,158,1)
+                },
+                {
+                    Type: "Category",
+                    Label: "WRAT-5",
+                    Caption:"Wide Range Achievement Test (WRAT-5)",
+                    ButtonAction: "",
+                    ButtonFill: RGBA(255,255,255,1),
+                    ButtonBorder: RGBA(204,204,204,1),
+                    ButtonHoverFill: RGBA(230,230,230,1),
+                    ButtonHoverBorder: RGBA(173,173,173,1),
+                    HeaderTextColour: RGBA(51,51,51,1),
+                    ButtonTextColour: RGBA(51,51,51,1),       
+                    Image: Icon.Journal,
+                    ImageColour: RGBA(6,85,158,1)
+                },
+                {
+                    Type: "Gap",
+                    Label: "Gap 3"
+                },
+                {
+                    Type: "Information",
+                    Label: "Reporting",
+                    Caption:"View Power BI Literacy Report and Goals",
+                    ButtonAction: "",
+                    ButtonFill: RGBA(6,85,158,1),
+                    ButtonBorder: RGBA(6,85,158,1),
+                    ButtonHoverFill: RGBA(4,59,109,1),
+                    ButtonHoverBorder: RGBA(6,85,158,1),
+                    HeaderTextColour: RGBA(51,51,51,1),
+                    ButtonTextColour: RGBA(255,255,255,1),      
+                    Image: "",
+                    ImageColour: RGBA(6,85,158,1)
+                },
+                {
+                    Type: "Category",
+                    Label: "Literacy Report",
+                    Caption:"View Power BI Literacy Report",
+                    ButtonAction: "Literacy Report",
+                    ButtonFill: RGBA(255,255,255,1),
+                    ButtonBorder: RGBA(204,204,204,1),
+                    ButtonHoverFill: RGBA(230,230,230,1),
+                    ButtonHoverBorder: RGBA(173,173,173,1),
+                    HeaderTextColour: RGBA(51,51,51,1),
+                    ButtonTextColour: RGBA(51,51,51,1),       
+                    Image: Icon.Bookmark,
+                    ImageColour: RGBA(6,85,158,1)
+                },
+                {
+                    Type: "Category",
+                    Label: "Literacy Goals",
+                    Caption:"View Power BI Literacy Goals",
+                    ButtonAction: "",
+                    ButtonFill: RGBA(255,255,255,1),
+                    ButtonBorder: RGBA(204,204,204,1),
+                    ButtonHoverFill: RGBA(230,230,230,1),
+                    ButtonHoverBorder: RGBA(173,173,173,1),
+                    HeaderTextColour: RGBA(51,51,51,1),
+                    ButtonTextColour: RGBA(51,51,51,1),       
+                    Image: Icon.Trending,
+                    ImageColour: RGBA(6,85,158,1)
+                })
+    OnSelectAction: ="Text"
+    SelectedMenuItem: =galMenu.Selected.ButtonAction
+    Width: =270
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    galMenu As gallery.galleryVertical:
+        BorderColor: =RGBA(0,125,154,1)
+        BorderThickness: =1
+        Default: ={}
+        FocusedBorderColor: =RGBA(0,125,154,1)
+        FocusedBorderThickness: =1
+        Height: ='Application Menu'.Height-10
+        Items: ='Application Menu'.MenuItems
+        Layout: =Layout.Vertical
+        ShowScrollbar: =false
+        TemplatePadding: =4
+        TemplateSize: =33
+        Width: ='Application Menu'.Width-10
+        X: =5
+        Y: =5
+        ZIndex: =1
+
+        btnApplicationMenu As Button:
+            AccessibleLabel: =ThisItem.Label
+            Alignment: ="left"
+            BorderColor: =ThisItem.ButtonBorder
+            BorderRadius: =5
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            ButtonType: ='''Microsoft.CoreControls.Button.ButtonType'''.Primary
+            DisabledBorderColor: =ThisItem.ButtonBorder
+            DisabledFillColor: =ThisItem.ButtonFill
+            DisabledTextColor: =ThisItem.ButtonTextColour
+            DisplayMode: =DisplayMode.Edit
+            FillColor: =ThisItem.ButtonFill
+            Height: =Switch(ThisItem.Type,"Gap",20,30)
+            HoverBorderColor: =ThisItem.ButtonHoverBorder
+            HoverFillColor: =ThisItem.ButtonHoverFill
+            HoverTextColor: =ThisItem.ButtonTextColour
+            OnSelect: ='Application Menu'.OnSelectAction()
+            PaddingBottom: =5
+            PaddingLeft: =Switch(ThisItem.Type,"Category",40,10)
+            PaddingRight: =5
+            PaddingTop: =5
+            PCFTeamsTheme: =TeamsTheme.Default
+            PressedBorderColor: =ThisItem.ButtonBorder
+            PressedFillColor: =ThisItem.ButtonFill
+            PressedTextColor: =ThisItem.ButtonTextColour
+            Text: =ThisItem.Label
+            TextColor: =ThisItem.ButtonTextColour
+            Tooltip: =ThisItem.Caption
+            Visible: =Switch(ThisItem.Type,"Gap",false,true)
+            Width: =Switch(ThisItem.Type,"Category",galMenu.TemplateWidth-30,galMenu.TemplateWidth-20)
+            X: =Switch(ThisItem.Type,"Category",20,10)
+            Y: =5
+            ZIndex: =1
+
+        icoApplicationMenu As icon.Add:
+            AccessibleLabel: =ThisItem.Label
+            BorderColor: =RGBA(0, 0, 0, 0)
+            Color: =ThisItem.ImageColour
+            DisabledBorderColor: =RGBA(243, 242, 241, 1)
+            DisabledColor: =ThisItem.ImageColour
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            DisplayMode: =DisplayMode.View
+            Height: =btnApplicationMenu.Height-10
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ThisItem.ImageColour
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =ThisItem.Image
+            OnSelect: =Select(Parent)
+            PaddingBottom: =2
+            PaddingLeft: =2
+            PaddingRight: =2
+            PaddingTop: =2
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ThisItem.ImageColour
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Tooltip: =ThisItem.Caption
+            Visible: =If(ThisItem.Type="Category",true,false)
+            Width: =btnApplicationMenu.Height-10
+            X: =btnApplicationMenu.X+5
+            Y: =btnApplicationMenu.Y+5
+            ZIndex: =3
+

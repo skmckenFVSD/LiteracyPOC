@@ -1,0 +1,95 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr6d9_classes",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr6d9_class",
+    "Name": "Classes",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr6d9_class_AsyncOperations": "System Jobs",
+      "cr6d9_class_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr6d9_class_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr6d9_class_ProcessSession": "Process Sessions",
+      "cr6d9_classid": "Class",
+      "cr6d9_name": "Name",
+      "cr6d9_teacherone": "Teacher One",
+      "cr6d9_teachertwo": "Teacher Two",
+      "cr6d9_termstart": "Term Start",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Classes",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Classes (Views)",
+    "Name": "_cr6d9_class_views",
+    "RelatedEntityName": "Classes",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "5783b225-4a25-4602-b01b-2ec151a61190": "Class Advanced Find View",
+      "7acf7d16-c654-4e63-8a02-4dad1159b4f9": "Inactive Classes",
+      "aa7d9c69-89f5-4c15-a9cd-b60659b6ef84": "Class Associated View",
+      "c43aa319-2bec-4d4b-9a68-9499086bf448": "Class Lookup View",
+      "e139287d-0495-4224-af49-6dc97278c0cb": "Active Classes"
+    }
+  },
+  {
+    "DisplayName": "Status (Classes)",
+    "Name": "cr6d9_class_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Classes"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Classes",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Classes)",
+    "Name": "cr6d9_class_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Classes"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Classes",
+    "Type": "OptionSetInfo"
+  }
+]
