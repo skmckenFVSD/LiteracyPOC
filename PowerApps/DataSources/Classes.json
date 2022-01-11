@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr6d9_class",
+    "MaxGetRowsCount": 500,
     "Name": "Classes",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
